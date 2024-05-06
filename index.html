@@ -1,0 +1,15 @@
+<h1 id="buttonname">Name</h1>
+<button id="button1" onclick="buttoname(event)">Kathik</button>
+<button id="button1" onclick="buttoname(event)">John</button>
+<button id="button1" onclick="buttoname(event)">Deer</button>
+
+<script>
+    var buttonname = document.getElementById("buttonname")
+    var button1 = document.getElementById("button1")
+
+    function buttoname(event){
+        console.log(event.target.textContent);
+        buttonname.textContent = event.target.textContent
+        
+    }
+</script>
